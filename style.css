@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(77, 103, 124);
+  color: #fff;
+}
+
+.row {
+  text-align: center;
+}
+.row > img {
+  display: inline-block;
+  margin: 5px;
+  border: 2px solid rgb(17, 0, 255);
+  border-radius: 10px;
+}
+.row > img:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+  border: 2px solid rgb(0, 255, 55);
+}
